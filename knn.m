@@ -30,6 +30,6 @@ for i=1:nx
 end
 %%
 result = c == kteste;
-sum(result) / length(result)
+sum(result)*100 / length(result)
 
 
